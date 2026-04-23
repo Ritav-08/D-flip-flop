@@ -1,0 +1,145 @@
+$date
+   Mon Apr 20 21:05:02 2026
+$end
+
+$version
+  2025.2
+  $dumpfile ("Dff.vcd") 
+$end
+
+$timescale
+  1ps
+$end
+
+$scope module tb_Dff $end
+$var reg 1 ! D_ti $end
+$var reg 1 " clk_ti $end
+$var wire 1 # Q_to $end
+$var wire 1 $ Qbar_to $end
+$var integer 32 % count [31:0] $end
+$var integer 32 & pass [31:0] $end
+$var integer 32 ' fail [31:0] $end
+$var reg 1 ( exp_Q $end
+$var reg 1 ) exp_Qbar $end
+$var reg 1 * D_pre $end
+$scope module UUT $end
+$var wire 1 + D_i $end
+$var wire 1 , clk_i $end
+$var reg 1 - Q_o $end
+$var wire 1 $ Qbar_o $end
+$upscope $end
+$scope task check $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+
+#0
+$dumpvars
+0!
+0"
+x#
+x$
+b0 %
+b0 &
+b0 '
+x(
+x)
+x*
+0+
+0,
+x-
+$end
+
+#1000
+b1 %
+b1 &
+
+#5000
+1!
+1"
+1#
+0$
+1*
+1+
+1,
+1-
+
+#6000
+b10 %
+b10 &
+1(
+0)
+
+#8000
+0!
+0+
+
+#9000
+b11 %
+b11 &
+
+#10000
+0"
+0,
+
+#14000
+1!
+1+
+
+#15000
+0!
+1"
+0#
+1$
+b100 %
+b100 &
+0*
+0+
+1,
+0-
+
+#16000
+b101 %
+b101 &
+0(
+1)
+
+#18000
+1!
+1+
+
+#19000
+b110 %
+b110 &
+
+#20000
+0!
+0"
+0+
+0,
+
+#21000
+b111 %
+b111 &
+
+#25000
+1"
+1,
+
+#30000
+1!
+0"
+1+
+0,
+
+#31000
+b1000 %
+b1000 &
+
+#35000
+1"
+1#
+0$
+1*
+1,
+1-
